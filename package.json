@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/slider": "^2.0.9",
+    "@use-expo/font": "^2.0.0",
     "chroma-js": "^2.1.0",
     "expo": "~37.0.3",
     "react": "~16.9.0",
