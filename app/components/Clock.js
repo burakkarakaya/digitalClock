@@ -15,14 +15,14 @@ function Clock(props) {
         var s = date.getSeconds(); // 0 - 59
         var session = "AM";
 
-        if (h == 0) {
+        /*if (h == 0) {
             h = 12;
         }
 
         if (h > 12) {
             h = h - 12;
             session = "PM";
-        }
+        }*/
 
         h = (h < 10) ? "0" + h : h;
         m = (m < 10) ? "0" + m : m;
@@ -55,7 +55,7 @@ function Clock(props) {
     }, []);
 
     return (
-        <View style={{ alignItems: 'center', width: _width }}>
+        <View style={{ alignItems: 'center' }}>
             <Text style={[styles.time, props.time]}>{time.clock}</Text>
             <Text style={[styles.date, props.date]}>{time.date}</Text>
         </View>

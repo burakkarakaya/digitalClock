@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, Slider, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Slider, TouchableOpacity, } from 'react-native';
 import DrawerLayout from 'react-native-gesture-handler/DrawerLayout';
 import HsvColorPicker from 'react-native-hsv-color-picker';
 import chroma from 'chroma-js';
@@ -37,7 +37,6 @@ export default function App() {
   const _onHuePickerChange = ({ hue }) => {
     setHue(hue);
   }
-
 
   const [drawerLockMode, setDrawerLockMode] = useState('unlocked');
   const renderDrawer = () => {

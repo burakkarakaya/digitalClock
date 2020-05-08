@@ -1,3 +1,3 @@
-export const dateFontSizeRate = .6;
+export const dateFontSizeRate = .8;
 export const minFontSize = 40;
-export const maxFontSize = 10000 - minFontSize;
+export const maxFontSize = 415 - minFontSize;
